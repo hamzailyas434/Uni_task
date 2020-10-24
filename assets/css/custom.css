@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-width: 100%;
+    height: 250px;
+    background-color: aqua;
+    text-align: center;
+    padding: 0 35px;
+    margin: 25px;
+    color: #fff;
+    border: 3px solid #000;
+}
+.box1{
+    float: left;
+    width: 30%;
+    background-color: #FF0000;
+    height: 248px;
+    margin:  0 27px;
+    border: 2px dotted #000;
+}
+.box-2{
+    float: left;
+    width: 30%;
+    background-color: #000;
+    height: 248px;
+    margin:  0 27px;
+    border: 2px dotted #fff;
+}
+.box-3{
+    float: left;
+    width: 30%;
+    background-color: #FFA500;
+    height: 248px;
+    margin:  0 27px;
+    border: 2px dotted #000;
+}
+
+body{
+    background-color: #fff;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border-bottom: 2px solid red;
+    line-height: 50px;
+    text-align: left;
+}
+tr:hover {
+    background-color:#C0C0C0;
+}
+
+/* Question 2 CSS */
+.question_2, .question_3, .question_4, .table_container{
+    margin: 50px;
+    text-align: justify;
+}
+.question_2 img{
+    max-width: 100%;
+}
+/* Header CSS */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.header__logo{
+    width: 20%;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+}
+.header__logo img{
+    width: 100%;
+    height: 100px;
+}
+.header__content{
+    width: 60%;
+    height: 100px;
+    background-color: brown;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.header__phone{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+/* Navbar CSS */
+
+nav{
+    max-width: 100%;
+    height: 65px;
+    background-color: #000;
+    text-align: center;
+}
+nav ul{
+    padding-top: 25px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #000;
+}
+aside{
+    width: 20%;
+    height: 500px;
+    background-color: darkcyan;
+}
+
+/* Aside CSS */
+
+aside{
+    width: 20%;
+    height: 460px;
+    background-color: #000;
+    float: left;
+}
+aside ul{
+    padding-top: 25px;
+    text-align: center;
+    list-style-type: none;
+}
+aside ul li{
+    padding-top: 25px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    line-height: 35px;
+    font-size: 20px;
+   border: 2px solid transparent;
+   border-radius: 5px;
+   padding: 10px 20px;
+   margin: 50px;
+}
+aside ul li a:hover{
+    background-color: #000;
+}
+
+/* Section */
+section{
+    width: 60%;
+    height: 460px;
+    background-color: gray;
+    float: left;
+}
+section img{
+    width: 100%;
+    height: 460px;
+}
+
+/* aside right */
+.asider__image img{
+    width: 100%;
+    height: 460px;
+    float: left;
+}
+
+/* Footer CSS */
+footer{
+    height: 27px;
+    width: 100%;
+    background-color:black;
+    float: left;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+.section__box-1{
+    width: 50%;
+    height: 230px;
+    background-color: #FFA500;
+    float: left;
+}
+.section__box-1 img, .section__box-2 img, .section__box-3 img, .section__box-4 img{
+    width: 100%;
+    height: 230px;
+}
+.section__box-2{
+    width: 50%;
+    height: 230px;
+    background-color: #2C2C2C;
+    float: left;
+}
+.section__box-3{
+    width: 50%;
+    height: 230px;
+    background-color: #2C2C2C;
+    float: left;
+}
+
+.section__box-4{
+    width: 50%;
+    height: 230px;
+    background-color: #FFA500;
+    float: left;
+}
+
+.qbox-1{
+    width: 20%;
+    background-color: yellowgreen;
+    height: 150px;
+    float: left;
+}
